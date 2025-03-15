@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Masa - Calidad y Tradición</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #ff6600;
+            color: white;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .product-img {
+            width: 100%;
+            max-width: 250px;
+            margin: 10px 0;
+            border-radius: 10px;
+        }
+        .contact-btn, .call-btn, .email-btn {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .call-btn {
+            background-color: #007BFF;
+        }
+        .email-btn {
+            background-color: #FF5722;
+        }
+        .mapa {
+            width: 100%;
+            height: 300px;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            padding: 15px;
+            font-size: 14px;
+        }
+        .qr-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .qr-img {
+            width: 100%;
+            max-width: 180px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Tienda de Masa - MOLINO DULCE
+    </header>
+
+    <section>
+        <h2>Venta de Masa</h2>
+        <p><strong>Precio:</strong> $15 por kilo</p>
+        <p>¡La masa más fresca y de mejor calidad en la ciudad! Perfecta para tamales, tortillas y más.</p>
+        <img src="masa.jpg" class="product-img" alt="Masa fresca">
+    </section>
+
+    <section>
+        <h2>Nuestro Molino</h2>
+        <p>Utilizamos un molino de alta precisión para garantizar la mejor textura y frescura en nuestra masa.</p>
+        <img src="molino.jpg" class="product-img" alt="Molino de masa">
+    </section>
+
+    <section>
+        <h2>¿Por qué elegirnos?</h2>
+        <ul style="text-align: left; max-width: 600px; margin: auto;">
+            <li>🌽 Ingredientes 100% naturales y frescos.</li>
+            <li>🏆 Años de experiencia en la producción de masa.</li>
+            <li>🚚 Servicio confiable y atención al cliente excepcional.</li>
+            <li>📍 Ubicación conveniente en Reynosa, Tamaulipas.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Ubicación</h2>
+        <p>📍 Prolongación Margarita Maza de Juárez #125, Colonia Modelo, Reynosa, Tamaulipas, CP 88790</p>
+        <iframe class="mapa" 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.6712513832195!2d-98.29750148484769!3d26.070010186886407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85db2cbad0b76b2b%3A0x8e5fbc49b1e6894f!2sJu%C3%A1rez%205%2C%20Colonia%20Modelo%2C%20Reynosa%2C%20Tamaulipas%2088790!5e0!3m2!1ses-419!2sus!4v1709932801768!5m2!1ses-419!2sus" 
+            allowfullscreen="" loading="lazy">
+        </iframe>
+        <p><a href="https://maps.app.goo.gl/MWKPf5dp17xT591NA" target="_blank">Ver en Google Maps</a></p>
+    </section>
+
+    <section>
+        <h2>Contacto</h2>
+        <p>📞 Teléfono: <a href="tel:+528991636748">8991636748</a></p>
+        <a class="call-btn" href="tel:+528991636748">Llamar a la tienda</a>
+        <br>
+        <div class="qr-container">
+            <h3>Escanea y envíanos un mensaje</h3>
+            <img src="codigo.jpg" class="qr-img" alt="codigo.jpg">
+            <a class="contact-btn" href="https://wa.me/528991636748" target="_blank">Contactar por WhatsApp</a>
+        </div>
+        <br>
+        <h3>Correo electrónico</h3>
+        <p>📩 <a href="mailto:mtzb509@gmail.com">mtzb509@gmail.com</a></p>
+        <a class="email-btn" href="mailto:mtzb509@gmail.com">Enviar correo</a>
+    </section>
+
+    <footer>
+        &copy; 2025 Tienda de Masa - Todos los derechos reservados.
+    </footer>
+</body>
+</html>
